@@ -69,7 +69,7 @@ const Testimonials = () => {
                   className='size-24 mb-6 rounded-full border-4 object-cover'
                />
                <blockquote className=' testimonial-qoute max-w-xl text-lg loading-relaxed lg:text-2xl'>
-                  &quote;{TESTIMONIAL.quote}&quote;
+                  &quot;{TESTIMONIAL.quote}&quot;
                </blockquote>
                <div className="testimonial-info mt-4 text-lg">
                   <p>{TESTIMONIAL.name}</p>
