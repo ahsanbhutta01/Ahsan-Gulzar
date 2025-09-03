@@ -75,7 +75,7 @@ const Hero = () => {
          </p>
 
          <a
-            href="/public/Ahsan Gulzar - MERN Stack Developer.pdf"
+            href="/Ahsan Gulzar .pdf"
             target='_blank'
             rel='noopener noreferrer'
             className='hero-btn mb-6 flex gap-1 rounded-full border border-pink-200/50 px-3 py-2 tracking-tighter'

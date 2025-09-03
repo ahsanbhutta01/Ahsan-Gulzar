@@ -46,7 +46,7 @@ const Projects = () => {
                               <h3 className="mb-2 text-lg font-medium lg:text-2xl">
                                  {project.title}
                               </h3>
-                              <p className="mb-4">{project.description}</p>
+                              <p dangerouslySetInnerHTML={{ __html: project.description }} className='mb-4'/>
                               <div className="mb-4">
                                  <strong>Tech Stack:</strong>
                                  <ul>

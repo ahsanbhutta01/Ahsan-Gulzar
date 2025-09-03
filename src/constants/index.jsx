@@ -1,13 +1,13 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
-import project5 from "../assets/project5.webp";
+import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.webp";
 import personImage from "../assets/testimonial.jpg";
 
 
-import { RiHtml5Line, RiCss3Line, RiJavascriptLine, RiReactjsLine } from "react-icons/ri";
+import { RiHtml5Line, RiCss3Line, RiJavascriptLine, RiReactjsLine, RiNextjsFill } from "react-icons/ri";
 import { DiNodejs } from "react-icons/di";
 import { SiMongodb, SiTailwindcss, SiRedux } from "react-icons/si";
 
@@ -31,10 +31,30 @@ export const PROJECTS = [
     id: 1,
     title: "B. E-commerce Website",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, order management and an integrated payment gateway.",
+      `A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, order management and an integrated payment gateway. <br/>
+      To check admin funtionality use these credentials: 
+    <span style="color: #e63946; font-size: 15px; font-weight: bold;margin-left:25px">example@gmail.com(123456)</span>`,
     techStack: ["React", "Node.js", "Express", "MongoDB", " MongoDB", "Tailwind CSS", "Cloudinary", "Redux Toolkit"],
     imgSrc: project1,
     link: " https://b-ecommerce-xu3h.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "B-Docs – Real-time Collaborative Document",
+    description:
+      "A collaborative document editing platform that allows multiple users to edit in real-time. It features live cursors, version history, and user authentication for secure collaboration.",
+    techStack: ["NextJS", "Shadcn UI", "Convex Database", "Live blocks", "TipTap editor", "Clerk", "Tailwind CSS", "Zustand"],
+    imgSrc: project4,
+    link: "https://b-docx.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "B. Meet (video and audio sharing)",
+    description:
+      "A real-time video and audio communication platform enabling seamless group meetings. It supports screen sharing, chat, and secure authentication for collaboration.",
+    techStack: ["NextJs", "TailwindCSS", "Shadcn UI", "OAuth Providers"],
+    imgSrc: project5,
+    link: "https://b-meet.vercel.app/",
   },
   {
     id: 2,
@@ -44,33 +64,6 @@ export const PROJECTS = [
     techStack: ["HTML", "Tailwind CSS"],
     imgSrc: project2,
     link: "https://tailwind-project-ahsan-s-projects-96f5cfc9.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Blog Platform",
-    description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["React", "Node", "Express", "MongoDB", "Tailwind CSS"],
-    imgSrc: project4,
-    link: "https://example-blogplatform.com",
-  },
-  {
-    id: 5,
-    title: "Task Management App",
-    description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
-    imgSrc: project5,
-    link: "https://example-taskapp.com",
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
-    link: "https://example-learningplatform.com",
   },
 ];
 
@@ -86,6 +79,10 @@ export const SKILLS = [
   {
     name: "JavaScript",
     icon: <RiJavascriptLine className="text-yellow-500 size-9" />,
+  },
+  {
+    name: "NextJS",
+    icon: <RiNextjsFill className="size-9" />
   },
   {
     name: "React",
@@ -107,6 +104,12 @@ export const SKILLS = [
     name: "Reduxjs",
     icon: <SiRedux className="text-[#3498db] size-9" />,
   },
+  {
+    name: "Zustand",
+    icon: (
+      <img src="/zustand.svg" alt="Zustand" className="size-12 -mb-2" />
+    )
+  }
 ];
 
 export const EXPERIENCES = [
@@ -126,7 +129,7 @@ export const EXPERIENCES = [
       "Designed and developed user interfaces for web applications using React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
     techStack: ["HTML", "CSS", "Reactjs", "Tailwind CSS", "GSAP"],
   },
-  
+
   {
     yearRange: "2021- 2022",
     role: "Software Engineer",
