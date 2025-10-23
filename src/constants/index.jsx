@@ -1,6 +1,6 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.webp";
+import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.webp";
@@ -65,6 +65,14 @@ export const PROJECTS = [
     imgSrc: project2,
     link: "https://tailwind-project-ahsan-s-projects-96f5cfc9.vercel.app/",
   },
+  {
+    id:3,
+    title:"Companies Review System",
+    description:"Company Reviews System lets users share honest experiences and explore genuine company ratings. It helps people make informed decisions through real customer feedback, building a clear picture of company performance.",
+    techStack:["React","TailwindCSS", "ShadcnUI", "NextJs", "TypeScript", "JavaScript", "NodeJs",],
+    imgSrc: project3,
+    link:"https://companies-review-system.vercel.app/"
+  }
 ];
 
 export const SKILLS = [
