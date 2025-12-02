@@ -31,7 +31,7 @@ const Navbar = () => {
       <div>
          <nav className="fixed left-0 right-0 z-50 lg:top-4">
             {/* Desktop Meny */}
-            <div className="mx-auto hidden max-w-[610px] items-center justify-center rounded-full border border-white/50 py-2  backdrop-blur-lg lg:flex">
+            <div className="mx-auto hidden max-w-[700px] items-center justify-center rounded-full border border-white/50 py-2  backdrop-blur-lg lg:flex">
 
                <div className="flex items-center justify-between gap-7">
                   <div>
