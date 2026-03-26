@@ -93,11 +93,11 @@ export const SKILLS = [
     icon: <RiNextjsFill className="size-9" />
   },
   {
-    name: "React",
+    name: "ReactJS",
     icon: <RiReactjsLine className="text-blue-400 size-9" />,
   },
   {
-    name: "Node.js",
+    name: "NodeJS",
     icon: <DiNodejs className="text-green-500 size-20 -mt-7 -mb-6" />,
   },
   {
@@ -105,11 +105,17 @@ export const SKILLS = [
     icon: <SiMongodb className="text-green-600 size-9" />,
   },
   {
+    name: "PostgresSQL",
+    icon: (
+      <img src="/postgres.svg" alt="PostgresSQL" className="size-12 -mb-2" />
+    )
+  },
+  {
     name: "Tailwind CSS",
     icon: <SiTailwindcss className="text-teal-400 size-9" />,
   },
   {
-    name: "Reduxjs",
+    name: "ReduxJS",
     icon: <SiRedux className="text-[#3498db] size-9" />,
   },
   {
@@ -117,12 +123,38 @@ export const SKILLS = [
     icon: (
       <img src="/zustand.svg" alt="Zustand" className="size-12 -mb-2" />
     )
+  },
+  {
+    name: "HonoJs",
+    icon: (
+      <img src="/honojs.svg" alt="HonoJS" className="size-12 -mb-2" />
+    )
+  },
+  {
+    name: "NestJs",
+    icon: (
+      <img src="/nestjs.svg" alt="NestJS" className="size-12 -mb-2" />
+    )
+  },
+  {
+    name: "GraphQL",
+    icon: (
+      <img src="/graphql.svg" alt="GraphQL" className="size-12 -mb-2" />
+    )
   }
 ];
 
 export const EXPERIENCES = [
+   {
+    yearRange: "2026-present",
+    role: "Full Stack Developer",
+    company: "Venofox",
+    description:
+    "Developed and maintained a full-stack eCommerce platform inspired by Shopify, implementing core marketplace features including product management, inventory handling, and order workflows while contributing to scalable application development and system optimization.",
+    techStack: ["TypeScript", "ReactJS", "NextJS", "HonoJS", "PostgresSQL", "Zod", "Zustand"],
+  },
   {
-    yearRange: "2025 - Present",
+    yearRange: "2025 - 2026",
     role: "Senior Full Stack Developer",
     company: "B.",
     description:
@@ -136,15 +168,6 @@ export const EXPERIENCES = [
     description:
       "Designed and developed user interfaces for web applications using React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
     techStack: ["HTML", "CSS", "Reactjs", "Tailwind CSS", "GSAP"],
-  },
-
-  {
-    yearRange: "2021- 2022",
-    role: "Software Engineer",
-    company: "Xpert Prime",
-    description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Javacript", "TypeScript", "Reactjs", "Nodejs", "MongoDB", "Tailwind CSS"],
   },
   {
     yearRange: "2023 - 2024",
