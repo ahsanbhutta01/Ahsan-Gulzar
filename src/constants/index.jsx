@@ -9,7 +9,7 @@ import personImage from "../assets/testimonial.jpg";
 
 import { RiHtml5Line, RiCss3Line, RiJavascriptLine, RiReactjsLine, RiNextjsFill } from "react-icons/ri";
 import { DiNodejs } from "react-icons/di";
-import { SiMongodb, SiTailwindcss, SiRedux } from "react-icons/si";
+import { SiMongodb, SiTailwindcss, SiRedux, SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa6";
 
 export const NAVIGATION_LINKS = [
@@ -97,6 +97,10 @@ export const SKILLS = [
   {
     name: "JavaScript",
     icon: <RiJavascriptLine className="text-yellow-500 size-9" />,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript className="text-[#3178C6] size-9" />,
   },
   {
     name: "NextJS",
