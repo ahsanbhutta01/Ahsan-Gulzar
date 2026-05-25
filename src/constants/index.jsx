@@ -10,6 +10,7 @@ import personImage from "../assets/testimonial.jpg";
 import { RiHtml5Line, RiCss3Line, RiJavascriptLine, RiReactjsLine, RiNextjsFill } from "react-icons/ri";
 import { DiNodejs } from "react-icons/di";
 import { SiMongodb, SiTailwindcss, SiRedux } from "react-icons/si";
+import { FaDocker } from "react-icons/fa6";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -150,12 +151,16 @@ export const SKILLS = [
     icon: (
       <img src="/graphql.svg" alt="GraphQL" className="size-12 -mb-2" />
     )
-  }
+  },
+  {
+    name: "Docker",
+    icon: <FaDocker className="text-[#3498db] size-9" />,
+  },
 ];
 
 export const EXPERIENCES = [
    {
-    yearRange: "2026-present",
+    yearRange: "Fabruary 2026-present",
     role: "Full Stack Developer",
     company: "Venofox",
     description:
@@ -164,8 +169,8 @@ export const EXPERIENCES = [
   },
   {
     yearRange: "2025 - 2026",
-    role: "Senior Full Stack Developer",
-    company: "B.",
+    role: "Full Stack Developer",
+    company: "Personal Project",
     description:
       "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
     techStack: ["TypeScript", "React.js", "Nextjs", "MongoDB"],
@@ -173,7 +178,7 @@ export const EXPERIENCES = [
   {
     yearRange: "2023 - 2024",
     role: "Frontend Developer",
-    company: "B. ",
+    company: "Personal Project ",
     description:
       "Designed and developed user interfaces for web applications using React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
     techStack: ["HTML", "CSS", "Reactjs", "Tailwind CSS", "GSAP"],
@@ -181,7 +186,7 @@ export const EXPERIENCES = [
   {
     yearRange: "2023 - 2024",
     role: "Full Stack Developer",
-    company: "B. Ecommerce",
+    company: "Personal Project",
     description:
       "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
     techStack: ["Javacript", "Reactjs", "Nodejs", "MongoDB", "Tailwind CSS", "JWT", "Redux Toolkit"],
@@ -196,15 +201,7 @@ export const EDUCATION = [
     duration: "2021 - 2025",
     description:
       "Graduated with honors in Information Technology, focusing on algorithms, data structures, and Full Stack development. Completed a \"Financial Advisor\"  project on scalable cloud architectures.",
-  },
-  {
-    id: 3,
-    degree: "Certified React Developer",
-    institution: "Udemy",
-    duration: "2024",
-    description:
-      "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
-  },
+  }
 ];
 
 export const TESTIMONIAL = {
