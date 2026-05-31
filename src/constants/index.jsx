@@ -24,7 +24,9 @@ export const PROFILE = {
   name: "Ahsan Gulzar",
   role: "Full Stack Developer",
   subheading:
-    "With 2 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    "ull-Stack Web Developer with 1+ years of experience building scalable web applications across e-commerce, SaaS, 
+and enterprise domains. Delivered 3+ production-ready projects using React.js, Next.js, Node.js, PostgreSQL and 
+MongoDB. Strong background in CI/CD pipelines, Agile workflows, and backend architecture. ",
 };
 
 export const PROJECTS = [
