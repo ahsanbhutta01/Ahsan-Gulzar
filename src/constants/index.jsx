@@ -29,6 +29,15 @@ export const PROFILE = {
 
 export const PROJECTS = [
   {
+  id: 6,
+  title: "Venfox",
+  description:
+    "Contributed to a production-grade full-stack platform during internship. Built and integrated REST API endpoints, fixed UI performance issues, and connected frontend components with backend systems. Worked closely with senior developers in an agile environment to deliver real features used in production.",
+  techStack: ["Next.js", "TypeScript","Hono.js", "REST APIs", "TailwindCSS", "Primsa ORM", "PostgreSQL", "Zod"],
+  imgSrc: project6,
+  link: "https://admin.venfox.com",
+},
+  {
     id: 1,
     title: "B. E-commerce Website",
     description:
@@ -74,15 +83,6 @@ export const PROJECTS = [
     imgSrc: project3,
     link:"https://companies-review-system.vercel.app/"
   },
-  {
-  id: 6,
-  title: "Venfox Platform (Internship)",
-  description:
-    "Contributed to a production-grade full-stack platform during internship. Built and integrated REST API endpoints, fixed UI performance issues, and connected frontend components with backend systems. Worked closely with senior developers in an agile environment to deliver real features used in production.",
-  techStack: ["Next.js", "TypeScript","Hono.js", "REST APIs", "TailwindCSS", "Primsa ORM", "PostgreSQL", "Zod"],
-  imgSrc: project6,
-  link: "https://admin.venfox.com",
-},
 ];
 
 export const SKILLS = [
