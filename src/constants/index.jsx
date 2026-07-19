@@ -7,10 +7,10 @@ import project6 from "../assets/project6.png";
 import personImage from "../assets/testimonial.jpg";
 
 
-import { RiHtml5Line, RiCss3Line, RiJavascriptLine, RiReactjsLine, RiNextjsFill } from "react-icons/ri";
+import { RiJavascriptLine, RiReactjsLine, RiNextjsFill } from "react-icons/ri";
 import { DiNodejs } from "react-icons/di";
-import { SiMongodb, SiTailwindcss, SiRedux, SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa6";
+import { SiMongodb, SiTailwindcss, SiRedux, SiTypescript, SiRedis, SiGithubactions, SiExpress, SiRabbitmq } from "react-icons/si";
+import { FaAws, FaDocker } from "react-icons/fa6";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -23,21 +23,19 @@ export const NAVIGATION_LINKS = [
 export const PROFILE = {
   name: "Ahsan Gulzar",
   role: "Full Stack Developer",
-  subheading:`FullStack Developer with 1+ years of experience building scalable web applications across e-commerce, SaaS, 
-and enterprise domains. Delivered 3+ production-ready projects using React.js, Next.js, Node.js, PostgreSQL and 
-MongoDB. Strong background in CI/CD pipelines, Agile workflows, and backend architecture. `,
+  subheading:`I don't just write code — I build products that scale. Full-Stack Developer who turns ideas into fast, reliable, production-ready web applications — from backend architecture to seamless user experiences. I care about clean code, thoughtful design, and shipping solutions that actually work when real users show up.`,
 };
 
 export const PROJECTS = [
   {
-  id: 6,
-  title: "Venfox",
-  description:
-    "Contributed to a production-grade full-stack platform during internship. Built and integrated REST API endpoints, fixed UI performance issues, and connected frontend components with backend systems. Worked closely with senior developers in an agile environment to deliver real features used in production.",
-  techStack: ["Next.js", "TypeScript","Hono.js", "REST APIs", "TailwindCSS", "Primsa ORM", "PostgreSQL", "Zod"],
-  imgSrc: project6,
-  link: "https://admin.venfox.com",
-},
+    id: 6,
+    title: "Venfox",
+    description:
+      "Contributed to a production-grade full-stack platform during internship. Built and integrated REST API endpoints, fixed UI performance issues, and connected frontend components with backend systems. Worked closely with senior developers in an agile environment to deliver real features used in production.",
+    techStack: ["Next.js", "TypeScript", "Hono.js", "REST APIs", "TailwindCSS", "Primsa ORM", "PostgreSQL", "Zod"],
+    imgSrc: project6,
+    link: "https://admin.venfox.com",
+  },
   {
     id: 1,
     title: "B. E-commerce Website",
@@ -77,24 +75,16 @@ export const PROJECTS = [
     link: "https://tailwind-project-ahsan-s-projects-96f5cfc9.vercel.app/",
   },
   {
-    id:3,
-    title:"Companies Review System",
-    description:"Company Reviews System lets users share honest experiences and explore genuine company ratings. It helps people make informed decisions through real customer feedback, building a clear picture of company performance.",
-    techStack:["React","TailwindCSS", "ShadcnUI", "NextJs", "TypeScript", "JavaScript", "NodeJs",],
+    id: 3,
+    title: "Companies Review System",
+    description: "Company Reviews System lets users share honest experiences and explore genuine company ratings. It helps people make informed decisions through real customer feedback, building a clear picture of company performance.",
+    techStack: ["React", "TailwindCSS", "ShadcnUI", "NextJs", "TypeScript", "JavaScript", "NodeJs",],
     imgSrc: project3,
-    link:"https://companies-review-system.vercel.app/"
+    link: "https://companies-review-system.vercel.app/"
   },
 ];
 
 export const SKILLS = [
-  {
-    name: "HTML5",
-    icon: <RiHtml5Line className="text-orange-600 size-9" />,
-  },
-  {
-    name: "CSS3",
-    icon: <RiCss3Line className="text-blue-500 size-9" />,
-  },
   {
     name: "JavaScript",
     icon: <RiJavascriptLine className="text-yellow-500 size-9" />,
@@ -112,6 +102,10 @@ export const SKILLS = [
     icon: <RiReactjsLine className="text-blue-400 size-9" />,
   },
   {
+    name: "ExpressJS",
+    icon: <SiExpress className="text-green-500 size-10 -mb-2" />,
+  },
+  {
     name: "NodeJS",
     icon: <DiNodejs className="text-green-500 size-20 -mt-7 -mb-6" />,
   },
@@ -126,12 +120,16 @@ export const SKILLS = [
     )
   },
   {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss className="text-teal-400 size-9" />,
+    name: "Redis",
+    icon: <SiRedis className="text-[#D82C20] size-10 -mb-2" />
   },
   {
-    name: "ReduxJS",
-    icon: <SiRedux className="text-[#3498db] size-9" />,
+    name: "GitHub Actions",
+    icon: <SiGithubactions className="text-[#2088FF] size-10 -mb-2" />
+  },
+  {
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss className="text-teal-400 size-9" />,
   },
   {
     name: "Zustand",
@@ -161,15 +159,23 @@ export const SKILLS = [
     name: "Docker",
     icon: <FaDocker className="text-[#3498db] size-9" />,
   },
+  {
+    name: "AWS (S3, EC2)",
+    icon: <FaAws className="size-12 -mb-3" />,
+  },
+  {
+    name: "RabbitMQ",
+    icon: <SiRabbitmq className="text-[#FF6600] size-9 " />,
+  },
 ];
 
 export const EXPERIENCES = [
-   {
-    yearRange: "Fabruary 2026-present",
+  {
+    yearRange: "Fabruary 2026 - present",
     role: "Full Stack Developer",
     company: "Venofox",
     description:
-    "Developed and maintained a full-stack eCommerce platform inspired by Shopify, implementing core marketplace features including product management, inventory handling, and order workflows while contributing to scalable application development and system optimization.",
+      "Developed and maintained a full-stack eCommerce platform inspired by Shopify, implementing core marketplace features including product management, inventory handling, and order workflows while contributing to scalable application development and system optimization.",
     techStack: ["TypeScript", "ReactJS", "NextJS", "HonoJS", "PostgresSQL", "Zod", "Zustand"],
   },
   {

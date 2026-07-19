@@ -44,9 +44,12 @@ const Experience = () => {
                         <div className="w-full md:w-3/4">
                            <h3 className="mb-2 text-lg lg:text-2xl">
                               {exp.role} - {" "}
-                              <span className="bg-gradient-to-b from-purple-400 to-pink-200 bg-clip-text text-transparent">
+                              <a 
+                              href={`${exp.company === "Venofox" ? "https://admin.venofox.com" : ""}`}
+                               target="_blank"
+                              className="bg-linear-to-b from-purple-400 to-pink-200 bg-clip-text text-transparent">
                                  {exp.company}
-                              </span>
+                              </a>
                            </h3>
                            <p className="mb-4 text-sm lg:text-base">
                               {exp.description}
